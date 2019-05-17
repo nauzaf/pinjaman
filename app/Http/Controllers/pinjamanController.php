@@ -24,14 +24,14 @@ class pinjamanController extends Controller
 
     	foreach ($filter as $f) {
     		$h = new \stdClass();
-			$h->name = $f->name;
-			$h->syarat = $f->syarat;
-			$h->contoh = $f->angsuran;
-			$h->bulan1 = new \stdClass();
-			$h->bulan3 = new \stdClass();
-			$h->bulan6 = new \stdClass();
-			$h->bulan12 = new \stdClass();
-			$biaya_awal = null;
+				$h->name = $f->name;
+				$h->syarat = $f->syarat;
+				$h->contoh = $f->angsuran;
+				$h->bulan1 = new \stdClass();
+				$h->bulan3 = new \stdClass();
+				$h->bulan6 = new \stdClass();
+				$h->bulan12 = new \stdClass();
+				$biaya_awal = null;
     		if ($f->case == 0) {
     			if ($f->biaya_awal !== null) {
     				$biaya_awal = $f->biaya_awal;
