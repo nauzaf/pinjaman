@@ -8,10 +8,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{{URL::asset('vendor/css/bootstrap.min.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{URL::asset('vendor/css/all.min.css')}}">
-        <script type="text/javascript" src="{{URL::asset('vendor/js/bootstrap.min.js')}}"></script>
-        <script type="text/javascript" src="{{URL::asset('vendor/js/jquery.min.js')}}"></script>
+        <link rel="stylesheet" type="text/css" href="{{URL::asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{URL::asset('css/all.min.css')}}">
+        <script type="text/javascript" src="{{URL::asset('js/bootstrap.min.js')}}"></script>
+        <script type="text/javascript" src="{{URL::asset('js/jquery.min.js')}}"></script>
 
         <!-- Styles -->
         <style>
