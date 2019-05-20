@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('vendor/css/bootstrap.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('vendor/css/all.min.css')}}">
-	<script type="text/javascript" src="{{URL::asset('vendor/js/jquery.min.js')}}"></script>
-	<script type="text/javascript" src="{{URL::asset('vendor/js/bootstrap.min.js')}}"></script>
+	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/bootstrap.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/all.min.css')}}">
+	<script type="text/javascript" src="{{URL::asset('js/jquery.min.js')}}"></script>
+	<script type="text/javascript" src="{{URL::asset('js/bootstrap.min.js')}}"></script>
 </head>
 <body style="background: #efefef;">
 	<nav class="navbar navbar-light bg-light border-bottom" style="background: #fff; justify-content: center; height: 80px;margin-bottom: 24px; align-items: center;">
