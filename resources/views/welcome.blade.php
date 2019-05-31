@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Pinjaman</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -65,13 +65,13 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-md-12" style="margin-top: 30%;">
-                     <h1 style="text-align: center;">Pinjaman simulator</h1>
+                <div class="col-md-12">
+                    <h1 style="text-align: center; margin-top: 25%">Pinjaman simulator</h1>
                     <form method="get" action="{{route('hasil')}}" class="form-inline" style="justify-content: center;margin-top: 30px;">
-                        <div class="form-group mx-sm-0 mb-2" style="margin-right: 24px !important;">
-                            <input type="text" id="1" placeholder="Rp 2,000,000.00" name="pinjaman" class="form-control-lg" id="currency-field" pattern="^\Rp\d{1,3}(,\d{3})*(\.\d+)?Rp" data-type="currency">
+                        <div class="form-group" style="margin-right: 24px !important;">
+                            <input type="text" id="1" placeholder="Rp 2,000,000.00" name="pinjaman" class="form-control-lg col-md-12" id="currency-field" pattern="^\Rp\d{1,3}(,\d{3})*(\.\d+)?Rp" data-type="currency">
                         </div>
-                        <input type="submit" name="pinjam" value="Cari" class="btn btn-primary btn-lg mb-2">
+                        <input type="submit" name="pinjam" value="Cari" class="btn btn-primary btn-lg">
                     </form>
                 </div>
             </div>
